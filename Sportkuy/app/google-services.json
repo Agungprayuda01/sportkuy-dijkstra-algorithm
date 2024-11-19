@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "719510275794",
+    "firebase_url": "https://hoaxeducation.firebaseio.com",
+    "project_id": "hoaxeducation",
+    "storage_bucket": "hoaxeducation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719510275794:android:02683842858aca76398f0b",
+        "android_client_info": {
+          "package_name": "com.example.hoaxeducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719510275794-9nki580ghk37aeqigupai1hef7hjad9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hoaxeducation",
+            "certificate_hash": "7142dce23f499dd03834554dda464fbf5e19bcd8"
+          }
+        },
+        {
+          "client_id": "719510275794-v852or9u8gro67llqjs3cgqj54o0avgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHAjBWAkDIOFEyEyOk7ORsVJK2hl30ZZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719510275794-v852or9u8gro67llqjs3cgqj54o0avgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719510275794:android:1ecc05936dc3dd2f398f0b",
+        "android_client_info": {
+          "package_name": "com.project.sportkuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719510275794-v852or9u8gro67llqjs3cgqj54o0avgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHAjBWAkDIOFEyEyOk7ORsVJK2hl30ZZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719510275794-v852or9u8gro67llqjs3cgqj54o0avgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

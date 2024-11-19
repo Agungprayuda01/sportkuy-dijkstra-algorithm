@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sportkuy</string>
+    <string-array name="daftar_lokasi">
+        <item>Lampung Futsal</item>
+        <item>Family Futsal</item>
+        <item>Trans Futsal</item>
+        <item>Futsal Jempol</item>
+        <item>Ghinan Futsal</item>
+        <item>Sakuba Futsal</item>
+        <item>Srikandi Futsal</item>
+        <item>Alsha Futsal</item>
+        <item>Twin Futsal</item>
+        <item>Harmoni Futsal</item>
+        <item>Light Futsal</item>
+        <item>Raya Futsal</item>
+        <item>Star Futsal</item>
+    </string-array>
+
+    <string-array name="yuda">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+    <!--    <string-array name="lapangan">-->
+    <!--        <item>Gedung Futsal Srikandi</item>-->
+    <!--        <item>D'Planet Futsal Stadium</item>-->
+    <!--        <item>Intan Futsal</item>-->
+    <!--    </string-array>-->
+    <string name="at">at</string>
+    <string name="dot">dot</string>
+</resources>

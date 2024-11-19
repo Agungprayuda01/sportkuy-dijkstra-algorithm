@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.sportkuy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sportkuy">
+        <activity android:name=".turnamen.DetailTurnamen"></activity>
+        <activity android:name=".editbola.EditBola" />
+        <activity android:name=".editfutsal.EditFutsal" />
+        <activity android:name=".forgetpassword.ResetPasswordActivity" />
+        <activity android:name=".Fiturturnamen" />
+        <activity android:name=".turnamen.Turnamensaya" />
+        <activity android:name=".turnamen.Teamturnamen" />
+        <activity android:name=".turnamen.Formturnamen" />
+        <activity android:name=".turnamen.Cariturney" />
+        <activity android:name=".turnamen.Turney" />
+        <activity android:name=".pertandingan.Detailjadwal" />
+        <activity android:name=".pertandingan.Jadwal" />
+        <activity android:name=".carilawanbola.Formlatihbola" />
+        <activity android:name=".Fiturcarilawan" />
+        <activity android:name=".Fiturdaftarteam" />
+        <activity android:name=".Daftarteambola.Daftarteambola" />
+        <activity android:name=".carilawanfutsal.Formlatih" />
+        <activity android:name=".carilawanfutsal.Detailcarilawan" />
+        <activity android:name=".carilawanfutsal.CariLawan" />
+        <activity android:name=".Register.Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DaftarTeamFutsal.Daftarteam" />
+        <activity android:name=".login.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

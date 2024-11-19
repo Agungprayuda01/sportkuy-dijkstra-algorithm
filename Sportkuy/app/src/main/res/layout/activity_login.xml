@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.Login"
+    android:background="@drawable/login">
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:text="Daftar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordET" />
+
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Login"
+        app:layout_constraintEnd_toStartOf="@+id/btn_daftar"
+        app:layout_constraintTop_toBottomOf="@+id/passwordET" />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailET" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
+        android:text="Lupa Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_daftar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

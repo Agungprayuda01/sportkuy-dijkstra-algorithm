@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    >
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/turneydaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Turnamen"
+        />
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/turneylisttim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Team"
+        />
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/turneytutup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutup Turnamen"
+        />
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/turneydetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="detail turnamen"
+        />
+
+</LinearLayout>
